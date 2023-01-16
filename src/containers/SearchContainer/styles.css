@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.rotateArrow > svg {
+  transition: all 0.2s ease;
+  transform: rotate(180deg);
+}
+.drop-main-container {
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+.drop-main-container .drop-wrapper {
+  margin-left:10px;
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}

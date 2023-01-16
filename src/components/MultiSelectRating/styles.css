@@ -1,0 +1,29 @@
+.multiselectContainer {
+  display: flex;
+  flex-direction: column;
+}
+summary {
+  min-width: 200px;
+  text-align: center;
+  border: 1px solid #979797;
+  min-height: 30px;
+  border-radius: 5px;
+  margin: 10px;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+.selection {
+  margin: 20px;
+  display: flex;
+}
+.selectvalue {
+  margin: 0px 10px;
+}
+.selectoption {
+  border: 1px solid #979797;
+  min-width: 200px;
+  margin: 10px 10px;
+  align-items: center;
+}
+
